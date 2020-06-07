@@ -1,0 +1,66 @@
+﻿FishImplementationGuide : Validation Results
+=========================================
+
+err = 4, warn = 1, info = 0
+IG Publisher Version: v1.0.86-SNAPSHOT Out of date - current version is v1.0.88-SNAPSHOT
+Generated Sun May 03 14:10:17 CDT 2020. FHIR version 4.0.1 for fish#0.1.0 (canonical = http://example.org/fhir/fish)
+
+ Build Errors : 38 / 1
+ C:\Research\sushi\FishExample\build\input\ImplementationGuide-fish : 0 / 0
+ C:\Research\sushi\FishExample\build\input\examples\patient-Shorty : 0 / 0
+ C:\Research\sushi\FishExample\build\input\extensions\structuredefinition-fish-species : 0 / 0
+ C:\Research\sushi\FishExample\build\input\profiles\structuredefinition-fish-patient : 0 / 0
+ C:\Research\sushi\FishExample\build\input\profiles\structuredefinition-veterinarian : 4 / 1
+ C:\Research\sushi\FishExample\build\input\vocabulary\valueset-fish-species-value-set : 0 / 0
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/Shorty.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: C:\Research\sushi\FishExample\build\output\Patient-Shorty.html#/html/body/div/div/div/p/a at Line 149, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\Patient-Shorty.json.html#/html/body/div/div/div/p/a at Line 167, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\Patient-Shorty.ttl.html#/html/body/div/div/div/p/a at Line 179, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\Patient-Shorty.xml.html#/html/body/div/div/div/p/a at Line 157, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\StructureDefinition-fish-patient-definitions.html#/html/body/div/div/div/p/a at Line 663, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\StructureDefinition-fish-patient-examples.html#/html/body/div/div/div/div/div/h2/div/div/div/p/a at Line 196, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\StructureDefinition-fish-patient-mappings.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\StructureDefinition-fish-patient.html#/html/body/div/div/div/p/a at Line 623, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\StructureDefinition-fish-patient.json.html#/html/body/div/div/div/p/a at Line 2464, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\StructureDefinition-fish-patient.profile.json.html#/html/body/div/div/div/p/a at Line 2513, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\StructureDefinition-fish-patient.profile.ttl.html#/html/body/div/div/div/p/a at Line 2207, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\StructureDefinition-fish-patient.profile.xml.html#/html/body/div/div/div/p/a at Line 2298, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\StructureDefinition-fish-patient.ttl.html#/html/body/div/div/div/p/a at Line 2157, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\StructureDefinition-fish-patient.xml.html#/html/body/div/div/div/p/a at Line 2245, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\StructureDefinition-fish-species-definitions.html#/html/body/div/div/div/p/a at Line 229, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\StructureDefinition-fish-species-mappings.html#/html/body/div/div/div/p/a at Line 185, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\StructureDefinition-fish-species.html#/html/body/div/div/div/p/a at Line 444, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\StructureDefinition-fish-species.profile.json.html#/html/body/div/div/div/p/a at Line 515, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\StructureDefinition-fish-species.profile.ttl.html#/html/body/div/div/div/p/a at Line 479, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\StructureDefinition-fish-species.profile.xml.html#/html/body/div/div/div/p/a at Line 464, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\StructureDefinition-veterinarian-definitions.html#/html/body/div/div/div/p/a at Line 538, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\StructureDefinition-veterinarian-examples.html#/html/body/div/div/div/div/div/h2/div/div/div/p/a at Line 185, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\StructureDefinition-veterinarian-mappings.html#/html/body/div/div/div/p/a at Line 260, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\StructureDefinition-veterinarian.html#/html/body/div/div/div/div/div/table/tr/td/span/div/div/div/p/a at Line 631, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\StructureDefinition-veterinarian.json.html#/html/body/div/div/div/p/a at Line 1930, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\StructureDefinition-veterinarian.profile.json.html#/html/body/div/div/div/p/a at Line 1979, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\StructureDefinition-veterinarian.profile.ttl.html#/html/body/div/div/div/p/a at Line 1726, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\StructureDefinition-veterinarian.profile.xml.html#/html/body/div/div/div/p/a at Line 1804, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\StructureDefinition-veterinarian.ttl.html#/html/body/div/div/div/p/a at Line 1676, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\StructureDefinition-veterinarian.xml.html#/html/body/div/div/div/p/a at Line 1751, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\ValueSet-fish-species-value-set.html#/html/body/div/div/div/p/a at Line 189, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\ValueSet-fish-species-value-set.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\ValueSet-fish-species-value-set.ttl.html#/html/body/div/div/div/p/a at Line 180, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\ValueSet-fish-species-value-set.xml.html#/html/body/div/div/div/p/a at Line 167, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\artifacts.html#/html/body/div/div/div/p/a at Line 221, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\index.html#/html/body/div/div/div/div/div/p/img at Line 129, column 5: The image source '../images/Shorty.png' cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\index.html#/html/body/div/div/div/p/a at Line 157, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+ERROR: C:\Research\sushi\FishExample\build\output\toc.html#/html/body/div/div/div/p/a at Line 122, column 28: The link 'cod@reef.gov' for "James Tuna" cannot be resolved
+== C:\Research\sushi\FishExample\build\input\ImplementationGuide-fish.json ==
+== C:\Research\sushi\FishExample\build\input\examples\Patient-Shorty.json ==
+== C:\Research\sushi\FishExample\build\input\extensions\StructureDefinition-fish-species.json ==
+== C:\Research\sushi\FishExample\build\input\profiles\StructureDefinition-fish-patient.json ==
+== C:\Research\sushi\FishExample\build\input\profiles\StructureDefinition-veterinarian.json ==
+ERROR: StructureDefinition/veterinarian: StructureDefinition.snapshot.element[31].pattern.ofType(CodeableConcept).coding[0]: Unknown Code System "http://hl7.org/fhir/sid/ca-hc-npn"
+ERROR: StructureDefinition/veterinarian: StructureDefinition.snapshot.element[31].pattern.ofType(CodeableConcept).coding[0].system: URL value "http://hl7.org/fhir/sid/ca-hc-npn" does not resolve
+ERROR: StructureDefinition/veterinarian: StructureDefinition.differential.element[7].pattern.ofType(CodeableConcept).coding[0]: Unknown Code System "http://hl7.org/fhir/sid/ca-hc-npn"
+ERROR: StructureDefinition/veterinarian: StructureDefinition.differential.element[7].pattern.ofType(CodeableConcept).coding[0].system: URL value "http://hl7.org/fhir/sid/ca-hc-npn" does not resolve
+WARNING: http://example.org/fhir/fish/StructureDefinition/veterinarian: The Implementation Guide contains no examples for this profile
+== C:\Research\sushi\FishExample\build\input\vocabulary\ValueSet-fish-species-value-set.json ==

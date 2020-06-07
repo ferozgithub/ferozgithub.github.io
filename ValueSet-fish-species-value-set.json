@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "id": "fish-species-value-set",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Fish Species Value Set</h2><div><p>Codes describing various species of fish, taken from SNOMED-CT.</p>\n</div><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  90580008 (Fish)</li></ul></div>"
+  },
+  "url": "http://example.org/fhir/fish/ValueSet/fish-species-value-set",
+  "version": "0.1.0",
+  "name": "FishSpeciesValueSet",
+  "title": "Fish Species Value Set",
+  "status": "active",
+  "date": "2020-05-03T14:09:48-05:00",
+  "publisher": "James Tuna",
+  "contact": [
+    {
+      "name": "Bill Cod",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "cod@reef.gov"
+        }
+      ]
+    }
+  ],
+  "description": "Codes describing various species of fish, taken from SNOMED-CT.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "90580008"
+          }
+        ]
+      }
+    ]
+  }
+}
